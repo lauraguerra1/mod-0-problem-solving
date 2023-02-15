@@ -10,8 +10,8 @@ Breakdown:
 - Print the array to the console using the new variable.
 */
 
-var favoriteFood = ["Ramen","Tacos","Chicken Parmesan","Sushi"];
-var newFood = favoriteFood.map(favoriteFood => favoriteFood.toLowerCase());
+var favoriteFoods = ["Ramen","Tacos","Chicken Parmesan","Sushi"];
+var newFood = favoriteFoods.map(favoriteFood => favoriteFood.toLowerCase());
 console.log(newFood);
 
 //--> [ 'ramen', 'tacos', 'chicken parmesan', 'sushi' ]
